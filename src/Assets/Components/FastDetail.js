@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Col, Row, Button, Card, CardGroup, Image, Jumbotron, Breadcrumb } from 'react-bootstrap';
+import { Container, Col, Row, Button, Card, CardGroup, Image, Jumbotron, Breadcrumb, Nav } from 'react-bootstrap';
 
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -11,13 +11,18 @@ import kstbackground from './../Photos/kstbackground.png';
 
 const bgColorStyle ={backgroundColor: '#3AAFA9'};
 const whitebg = {backgroundColor: '#FFFFFF'};
+const textColor = {color: 'white'};
 
 
 function FastDetail() {
   return (
     <div>
     <Breadcrumb style={bgColorStyle} >
-      <Breadcrumb.Item href="/puiHW8/projects">Projects</Breadcrumb.Item>
+    
+      <Breadcrumb.Item>
+        <Nav.Link as={Link} to="/puiHW8/projects" style={textColor}>Projects</Nav.Link>
+      </Breadcrumb.Item>
+
       <Breadcrumb.Item active>FastBreak</Breadcrumb.Item>
     </Breadcrumb>
     <Container>
