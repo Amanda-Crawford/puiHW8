@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import HeaderBar from './Components/HeaderBar';
-import Headshot from './Components/Headshot';
-import AboutText from './Components/AboutText';
+import HeaderBar from './HeaderBar';
+import Headshot from './Headshot';
+import AboutText from './AboutText';
 import { Container, Col, Row, Button } from 'react-bootstrap';
 
 function About() {
