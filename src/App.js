@@ -1,23 +1,40 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import HeaderBar from './Components/HeaderBar';
+import Projects from './Components/Projects';
+import About from './About';
+import Skills from './Components/Skills';
+import FastDetail from './Components/FastDetail';
+import {Switch, Route, BrowserRouter as Router} from 'react-router-dom';
+import { Container, Col, Row, Button } from 'react-bootstrap';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Router>
+      <HeaderBar />
+
+      <Switch>
+            <Route exact path="/puiHW8">
+                <About />
+            </Route>
+            <Route exact path="/puiHW8/projects">
+                <Projects />
+            </Route>
+            <Route path="/puiHW8/projects/fastbreak">
+                <FastDetail />
+            </Route>
+            <Route path="/puiHW8/skills">
+                <Skills />
+            </Route>
+            <Route path="*">
+              <div> 404 </div>
+            </Route>
+        </Switch>
+
+    </Router>
     </div>
   );
 }
