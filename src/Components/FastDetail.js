@@ -13,7 +13,7 @@ const bgColorStyle ={backgroundColor: '#3AAFA9'};
 const whitebg = {backgroundColor: '#FFFFFF'};
 
 
-function Projects() {
+function FastDetail() {
   return (
     <div>
     <Breadcrumb style={bgColorStyle} >
@@ -123,4 +123,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default FastDetail;
