@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Col, Row, Button, Card, CardGroup, Image, Jumbotron, Breadcrumb, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -18,7 +19,7 @@ function FastDetail() {
   return (
     <div>
     <Breadcrumb style={bgColorStyle} >
-    
+
       <Breadcrumb.Item>
         <Nav.Link as={Link} to="/puiHW8/projects" style={textColor}>Projects</Nav.Link>
       </Breadcrumb.Item>
