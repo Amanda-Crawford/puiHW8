@@ -63,7 +63,7 @@ function Projects() {
           <Col className="mx-auto animate__animated animate__rollIn animate__delay-1s" > <FontAwesomeIcon style={tealIcon} icon={faStar} size="2x"/> </Col>
           <Col className="mx-auto animate__animated animate__rollIn animate__delay-1s"> <FontAwesomeIcon style={tealIcon} icon={faStar} size="2x"/> </Col>
           <Col className="mx-auto animate__animated animate__rollIn animate__delay-1s"> <FontAwesomeIcon style={tealIcon} icon={faStar} size="2x"/> </Col>
-          <Col className="mx-auto animate__animated animate__rollIn animate__delay-1s"> <FontAwesomeIcon style={whiteIcon} icon={faStarHalfAlt} size="2x"/> </Col>
+          <Col className="mx-auto animate__animated animate__rollIn animate__delay-1s"> <FontAwesomeIcon style={tealIcon} icon={faStarHalfAlt} size="2x"/> </Col>
         </Row>
         <br/>
         <Row className="mx-auto">
