@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HeaderBar from './Components/HeaderBar';
 import Projects from './Components/Projects';
-import About from './About';
+import About from './Components/About';
 import Skills from './Components/Skills';
 import FastDetail from './Components/FastDetail';
 import {Switch, Route, BrowserRouter as Router} from 'react-router-dom';
