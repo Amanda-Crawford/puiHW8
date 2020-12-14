@@ -23,7 +23,7 @@ function App() {
             <Route exact path="/puiHW8/projects">
                 <Projects />
             </Route>
-            <Route exact path="/puiHW8/fasbreak">
+            <Route exact path="/puiHW8/fastbreak">
                 <FastDetail />
             </Route>
             <Route path="/puiHW8/skills">
