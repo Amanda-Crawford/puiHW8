@@ -1,5 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Col, Row, Button, Card, CardGroup } from 'react-bootstrap';
+import { Container, Col, Row, Button, Card, CardGroup, Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+
 import fastbreak from './../Photos/PortfolioSite.jpg';
 import activist from './../Photos/activist.jpg';
 import geagle from './../Photos/geagle.png';
@@ -7,7 +9,13 @@ import smsb from './../Photos/smsb.png';
 import brew from './../Photos/brew.png';
 import movie from './../Photos/movie.png';
 const bgColorStyle ={backgroundColor: '#3AAFA9'};
+const textColor = {color: 'white'};
 
+//<Nav.Link as={Link} to="/puiHW8/projects"><h4>Projects</h4></Nav.Link>
+
+//<Button variant="info" bg="#3AAFA9" style={bgColorStyle}>
+  //<Nav.Link as={Link} to="/puiHW8/projects/fastbreak" style={textColor}>Learn More</Nav.Link>
+//</Button>
 
 function Projects() {
   return (
@@ -28,7 +36,9 @@ function Projects() {
               <Card.Text>
                 Programming, Android Development, Java, APIs
               </Card.Text>
-              <Button variant="info" bg="#3AAFA9" style={bgColorStyle} href='/puiHW8/fastbreak'>Learn More</Button>
+              <Button variant="info" bg="#3AAFA9" style={bgColorStyle}>
+                <Nav.Link as={Link} to="/puiHW8/projects/fastbreak" style={textColor}>Learn More</Nav.Link>
+              </Button>
             </Card.Body>
           </Card>
         </Row>
@@ -40,7 +50,9 @@ function Projects() {
               <Card.Text>
                 Development, React, APIs, Design
               </Card.Text>
-              <Button variant="info" bg="#3AAFA9" style={bgColorStyle} href='/puiHW8/fastbreak'>Learn More</Button>
+              <Button variant="info" bg="#3AAFA9" style={bgColorStyle}>
+                <Nav.Link as={Link} to="/puiHW8/projects/fastbreak" style={textColor}>Learn More</Nav.Link>
+              </Button>
             </Card.Body>
           </Card>
         </Row>
@@ -56,7 +68,9 @@ function Projects() {
             <Card.Text>
               User Research, Prototyping, Visual Design, Figma
             </Card.Text>
-            <Button variant="info" bg="#3AAFA9" style={bgColorStyle} href='/puiHW8/fastbreak'>Learn More</Button>
+            <Button variant="info" bg="#3AAFA9" style={bgColorStyle}>
+              <Nav.Link as={Link} to="/puiHW8/projects/fastbreak" style={textColor}>Learn More</Nav.Link>
+            </Button>
           </Card.Body>
         </Card>
       </Row>
@@ -68,7 +82,9 @@ function Projects() {
             <Card.Text>
               User Research, Prototyping, Interaction Design, Figma
             </Card.Text>
-            <Button variant="info" bg="#3AAFA9" style={bgColorStyle} href='/puiHW8/fastbreak'>Learn More</Button>
+            <Button variant="info" bg="#3AAFA9" style={bgColorStyle}>
+              <Nav.Link as={Link} to="/puiHW8/projects/fastbreak" style={textColor}>Learn More</Nav.Link>
+            </Button>
           </Card.Body>
         </Card>
       </Row>
@@ -84,7 +100,9 @@ function Projects() {
             <Card.Text>
               User Research, Interaction Design, Gamification
             </Card.Text>
-            <Button variant="info" bg="#3AAFA9" style={bgColorStyle} href='/puiHW8/fastbreak'>Learn More</Button>
+            <Button variant="info" bg="#3AAFA9" style={bgColorStyle}>
+              <Nav.Link as={Link} to="/puiHW8/projects/fastbreak" style={textColor}>Learn More</Nav.Link>
+            </Button>
           </Card.Body>
         </Card>
       </Row>
@@ -96,7 +114,9 @@ function Projects() {
             <Card.Text>
               Typography, Color Theory, Visual Design
             </Card.Text>
-            <Button variant="info" bg="#3AAFA9" style={bgColorStyle} href='/puiHW8/fastbreak'>Learn More</Button>
+            <Button variant="info" bg="#3AAFA9" style={bgColorStyle}>
+              <Nav.Link as={Link} to="/puiHW8/projects/fastbreak" style={textColor}>Learn More</Nav.Link>
+            </Button>
           </Card.Body>
         </Card>
       </Row>
