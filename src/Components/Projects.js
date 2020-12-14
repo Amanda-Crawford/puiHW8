@@ -28,7 +28,7 @@ function Projects() {
               <Card.Text>
                 Programming, Android Development, Java, APIs
               </Card.Text>
-              <Button variant="info" bg="#3AAFA9" style={bgColorStyle} href='/puiHW8/projects/fastbreak'>Learn More</Button>
+              <Button variant="info" bg="#3AAFA9" style={bgColorStyle} href='/puiHW8/fasbreak'>Learn More</Button>
             </Card.Body>
           </Card>
         </Row>
@@ -40,7 +40,7 @@ function Projects() {
               <Card.Text>
                 Development, React, APIs, Design
               </Card.Text>
-              <Button variant="info" bg="#3AAFA9" style={bgColorStyle} href='/puiHW8/projects/fastbreak'>Learn More</Button>
+              <Button variant="info" bg="#3AAFA9" style={bgColorStyle} href='/puiHW8/fasbreak'>Learn More</Button>
             </Card.Body>
           </Card>
         </Row>
@@ -56,7 +56,7 @@ function Projects() {
             <Card.Text>
               User Research, Prototyping, Visual Design, Figma
             </Card.Text>
-            <Button variant="info" bg="#3AAFA9" style={bgColorStyle} href='/puiHW8/projects/fastbreak'>Learn More</Button>
+            <Button variant="info" bg="#3AAFA9" style={bgColorStyle} href='/puiHW8/fasbreak'>Learn More</Button>
           </Card.Body>
         </Card>
       </Row>
@@ -68,7 +68,7 @@ function Projects() {
             <Card.Text>
               User Research, Prototyping, Interaction Design, Figma
             </Card.Text>
-            <Button variant="info" bg="#3AAFA9" style={bgColorStyle} href='/puiHW8/projects/fastbreak'>Learn More</Button>
+            <Button variant="info" bg="#3AAFA9" style={bgColorStyle} href='/puiHW8/fasbreak'>Learn More</Button>
           </Card.Body>
         </Card>
       </Row>
@@ -84,7 +84,7 @@ function Projects() {
             <Card.Text>
               User Research, Interaction Design, Gamification
             </Card.Text>
-            <Button variant="info" bg="#3AAFA9" style={bgColorStyle} href='/puiHW8/projects/fastbreak'>Learn More</Button>
+            <Button variant="info" bg="#3AAFA9" style={bgColorStyle} href='/puiHW8/fasbreak'>Learn More</Button>
           </Card.Body>
         </Card>
       </Row>
@@ -96,7 +96,7 @@ function Projects() {
             <Card.Text>
               Typography, Color Theory, Visual Design
             </Card.Text>
-            <Button variant="info" bg="#3AAFA9" style={bgColorStyle} href='/puiHW8/projects/fastbreak'>Learn More</Button>
+            <Button variant="info" bg="#3AAFA9" style={bgColorStyle} href='/puiHW8/fasbreak'>Learn More</Button>
           </Card.Body>
         </Card>
       </Row>
